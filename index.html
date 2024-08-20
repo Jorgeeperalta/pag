@@ -52,6 +52,11 @@
             background-color: rgb(29, 64, 148);
         }
 
+        .rounded {
+            border-radius: 150px;
+            /* Ajusta el valor según tus preferencias */
+        }
+
         .section {
             color: rgb(7, 66, 121);
             padding: 40px 0;
@@ -59,16 +64,16 @@
     </style>
 </head>
 
-<body class="container-fluid">
+<body class="container-fluid rounded">
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-blue sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-blue rounded sticky-top">
         <img src="30.png" alt="Logo Universidad Atlántida Argentina" class="img-fluid" style="width: 200px" />
         <!-- <a style="color: white" class="navbar-brand" href="#">UAA</a> -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div style="color: white" class="collapse navbar-collapse" id="navbarNav">
+        <div style="color: white " class="collapse rounded navbar-collapse" id="navbarNav">
             <ul style="color: white" class="navbar-nav ml-auto">
                 <li class="nav-item">
                     <a style="color: white" class="nav-link" href="#inicio">Inicio</a>
@@ -105,7 +110,7 @@
     </header>
 
     <!-- Inicio -->
-    <section id="inicio" class="section">
+    <section id="inicio" class="section rounded">
         <div class="container text-center">
             <h2 style="color: white">
                 Bienvenidos a la Universidad Atlántida Argentina
@@ -128,31 +133,31 @@
     </section>
 
     <!-- Carreras -->
-    <section id="carreras" class="section bg-white">
+    <section id="carreras" class="section bg-white rounded">
         <div class="container">
             <h2 style="color: rgb(7, 14, 122)" class="text-center">
                 Carreras de Grado y Pregrado
             </h2>
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4 rounded">
                     <img src="arq.png" alt="Facultad de Ciencias Económicas" />
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 rounded">
                     <img src="arq.png" alt="Facultad de Ciencias Económicas" />
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 rounded">
                     <img src="arq.png" alt="Facultad de Ciencias Económicas" />
                 </div>
                 <!-- Más facultades pueden ser añadidas aquí -->
             </div>
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4 rounded">
                     <img src="arq.png" alt="Facultad de Ciencias Económicas" />
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 rounded">
                     <img src="arq.png" alt="Facultad de Ciencias Económicas" />
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 rounded">
                     <img src="arq.png" alt="Facultad de Ciencias Económicas" />
                 </div>
                 <!-- Más facultades pueden ser añadidas aquí -->
@@ -161,11 +166,11 @@
     </section>
 
     <!-- Diplomaturas y Cursos -->
-    <section id="diplomaturas" class="section">
+    <section id="diplomaturas" class="section rounded">
         <div class="container">
             <h2 style="color: white" class="text-center">Diplomaturas y Cursos</h2>
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4 rounded">
                     <img src="distancia2.png" alt="Diplomaturas y Cursos" class="img-fluid mb-5" />
                 </div>
                 <div class="col-md-4">
@@ -184,7 +189,7 @@
     </section>
 
     <!-- Investigación -->
-    <section id="investigacion" class="section bg-light">
+    <section id="investigacion" class="section bg-light rounded">
         <div class="container">
             <h2 class="text-center">Investigación</h2>
             <img src="investigacion.png" alt="Investigación" class="img-fluid mb-3" />
@@ -198,7 +203,7 @@
     <section id="distancia" class="section">
         <div class="container">
             <h2 style="color: white" class="text-center">Modalidad a Distancia</h2>
-            <img src="distancia.png" alt="Modalidad a Distancia" class="img-fluid mb-3" />
+            <img src="distancia.png" alt="Modalidad a Distancia" class="img-fluid mb-3 rounded" />
             <p style="color: white" class="text-center">
                 Descubre nuestras carreras y cursos ofrecidos en modalidad virtual.
             </p>
@@ -206,10 +211,10 @@
     </section>
 
     <!-- Sobre Nosotros -->
-    <section id="nosotros" class="section bg-light">
-        <div class="container">
+    <section id="nosotros" class="section bg-light rounded">
+        <div class="container rounded">
             <h2 class="text-center">Sobre Nosotros</h2>
-            <img src="logowhite.png" alt="Sobre Nosotros" class="img-fluid mb-4 imagen-transparente" />
+            <img src="logowhite.png" alt="Sobre Nosotros" class="img-fluid mb-4 imagen-transparente rounded" />
             <p class="text-center">
                 Hacia 1990 en una reunión pública donde asistieron centenares de vecinos fue creada la Fundación de
                 Atlántida Argentina, que tuvo como principal finalidad de efectuar trámites y gestiones que llevan a
@@ -225,10 +230,10 @@
     </section>
 
     <!-- Sedes -->
-    <section id="sedes" class="section">
+    <section id="sedes" class="section rounded">
         <div class="container">
             <h2 style="color: white" class="text-center">Sedes</h2>
-            <img src="mdj.png" alt="Sedes" class="img-fluid mb-3" />
+            <img src="mdj.png" alt="Sedes" class="img-fluid mb-3 rounded" />
             <ul class="list-unstyled">
                 <li style="color: white">Mar de Ajó</li>
                 <li style="color: white">Dolores</li>
@@ -238,7 +243,7 @@
     </section>
 
     <!-- Contacto -->
-    <section id="contacto" class="section bg-light">
+    <section id="contacto" class="section bg-light rounded">
         <div class="container">
             <h2 class="text-center">Contacto</h2>
             <form id="contact-form">
@@ -260,7 +265,7 @@
     </section>
 
     <!-- Footer -->
-    <footer class="text-center p-4 bg-blue text-white">
+    <footer class="text-center p-4 bg-blue text-white rounded">
         <p class="text-center">
             &copy; 2024 Universidad Atlántida Argentina. Todos los derechos
             reservados.
